@@ -1,0 +1,139 @@
+* {
+	font-family: Arial;
+	font-size: 12px;
+}
+.background {
+	background-image: url('../img/tuyet.jpg');
+	border: 0px solid red;
+	width: 100%;
+	height: 1200px;
+	display: flex;
+}
+.container {
+	border: 3px solid white;
+	width: 61%;
+	height: 1177px;
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+}
+.banner {
+	border: 3px solid white;
+	border-bottom: 0;
+	height: 360px;
+	background-image: url('../img/123.jpg');
+	
+}
+.navbar {
+	border: 3px solid white;
+	border-top: 0;
+	border-bottom: 0;
+	height: 30px;
+	background-image: url('../img/nav.gif');
+	background-repeat: repeat-x;
+}
+.menu {
+	border: 2px solid grey;
+	width: 148px;
+}
+.menu li {
+	width: auto;
+	height: 27px;
+}
+.menu-title {
+	background-image: url('../img/menu_bar.gif');
+	background-repeat: no-repeat;
+	text-align: center;
+	line-height: 25px;
+}
+.left-right-menu{
+	float: left;
+	padding: 3px;
+}
+.content{
+	float: left;
+	width: 59%;
+	padding: 0 8px;
+}
+.intro {
+	width: auto;
+	height: 70px;
+	border-radius: 5px;
+	background-color: #ffbb88;
+	color: white;
+	font-style: italic;
+}
+.main-bar-left{
+	background-image: url('../img/main_bar_left.gif');
+	background-repeat: no-repeat;
+	width: auto;
+	height: 24px;
+	clear: right;
+}
+.text-bar-left{
+	line-height: 24px;
+	padding-left: 5px;
+}
+.main-bar-right {
+	background-image: url('../Img/main_bar_right.gif');
+	background-repeat: no-repeat;
+	width: auto;
+	height: 24px;
+	text-align: right;
+	clear: left;
+}
+.text-bar-right {
+	line-height: 24px;
+	padding-right: 5px;
+}
+.left-img {
+	float: left;
+	width: 155px;
+	height: 108px;
+}
+.left-info {
+	float: left;
+	width: 300px;
+	margin-left: 10px;
+}
+.right-img {
+	float: right;
+}
+.footer{
+	clear: left;
+	border-top: 2px solid red;
+	background-color: #434343;
+	height: 72px;
+	color: white;
+	display: flex;
+}
+.text-white-bold {
+	color: white;
+	font-weight: bold;
+}
+ul{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+.navbar li{
+	float: left;
+	text-align: center;
+	color: orange;
+	font-weight: bold;
+	margin-top: 10px;
+	margin-left: 5px;
+	padding-left: 8px;
+	padding-right: 10px;
+	border-right: 1px solid black;
+}
+li:hover {
+	color: blue;
+	text-decoration: underline;
+	font-weight: bold;
+}
+span:hover{
+	color: blue;
+	text-decoration: underline;
+}
