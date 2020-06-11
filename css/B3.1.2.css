@@ -1,0 +1,36 @@
+/*.header{
+	width:100%;
+	height:200px;
+	padding: 10px;
+}*/
+.menu{
+	border: 0px solid red;
+	width: 14%;
+	
+	display:inline-block;
+	margin: 2px;
+}
+.hang{
+	border: 0px solid red;
+	width: 14%;
+	display :inline-block;
+	margin: 2px;
+	
+}
+span:hover {
+	color: red;
+	font-weight: bold;
+}
+body {
+
+	color:blue ;
+	
+}
+.tong
+{
+	border-width: 0px;
+	border-style: solid;
+	width: 90%;
+	height: 30%;
+	background-color: #E4D4D4;
+}

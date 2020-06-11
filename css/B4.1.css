@@ -1,0 +1,93 @@
+body{
+	background-image: url(../img/bg.jpg);
+}
+
+.menu{
+	
+	height: 600px;
+
+}
+#Home:hover{
+	color: red;
+}
+#Tab:hover{
+	color: yellow;
+}
+.content{
+
+
+}
+#anh1{
+	background-color: #B5B5B5;
+	border: 3px solid red;
+	border-radius: 5px 5px 5px 5px;
+	border-spacing: 1px;
+	display: inline-block;
+
+}
+#anh2{
+	background-color: #B5B5B5;
+	border: 3px solid red;
+	border-radius: 5px 5px 5px 5px;
+	display: inline-block;
+	border-spacing: 1px;
+}
+#anh3{
+	background-color: #B5B5B5;
+	border:3px solid red;
+	border-radius: 5px 5px 5px 5px;
+	display: inline-block;
+	border-spacing: 1px;
+}
+#anh4{
+	background-color: #B5B5B5;
+    display: inline-block;
+	
+	border: 3px solid red;
+	border-radius: 5px 5px 5px 5px;
+	border-spacing: 1px;
+	
+}
+#anh5{
+	background-color: #B5B5B5;
+
+    margin: 5px;
+	border: 3px solid red;
+	border-radius: 5px 5px 5px 5px;
+	display: inline-block;
+	border-spacing: 1px;
+
+}
+#anh6{   
+	background-color: #B5B5B5;
+
+	margin: 5px;
+	border: 3px solid red;
+	border-radius: 5px 5px 5px 5px;
+	display: inline-block;
+	border-spacing: 1px;
+
+}
+#anh7{
+	background-color: #B5B5B5;
+
+	margin: 5px;
+	border: 3px solid red;
+	border-radius: 5px 5px 5px 5px;
+	display: inline-block;
+	border-spacing: 1px;
+}
+.end{
+	background-color: green;
+	height: 600px;
+}
+ul{
+	list-style-type: none;
+	margin-left: 0.5px;
+}
+ul>li:hover{
+	color: green;
+}
+.content:hover{
+	color: #8F1BD1;
+}

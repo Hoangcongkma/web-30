@@ -1,0 +1,40 @@
+ul {
+    position: relative;
+    list-style: none;
+    background-color: yellow;
+    padding: 0;
+    /*height: 30px;*/
+    line-height: 200%;
+}
+.menu {
+    width: 415px;
+    padding: 5px 0px;
+    
+}
+
+ul>li.item {
+    padding: 0;
+    width: 100px;
+    margin: 0;
+    display: inline-table;
+    width: 100px;
+    text-align: center;
+    border-right: 1px gray solid;
+}
+ul>li:last-child {
+  border-width: 0;  
+}
+
+.sub-menu {
+    display: none;
+    position: absolute;
+    top: 40px;
+}
+
+.sub-menu>.sub-item {
+    width: 100px;
+}
+
+.item:hover .sub-menu{
+    display: block;
+}

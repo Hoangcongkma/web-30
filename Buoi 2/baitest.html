@@ -2,51 +2,68 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Zent group</title>
+	<title></title>
 </head>
 <body>
-	<form action=""></form>
-	<table border="1" width="50%"align="center">
-	<tr height="80px">
-		<td colspan="2" bgcolor="orange" align="center">Zent Group </td>
-		
-	</tr>
-	<tr heigh="30px">
-		<td></td>
-		<td></td>
-	</tr>
-	<tr>
-		<td></td>
-		<td></td>
-	</tr>
-	<tr>
-		<td></td>
-		<td></td>
-	</tr>
-	<tr>
-		<td></td>
-		<td></td>
-	</tr>
-	<tr>
-		<td></td>
-		<td></td>
-	</tr>
-	<tr>
-		<td></td>
-		<td></td>
-	</tr>
-	<tr>
-		<td></td>
-		<td></td>
-	</tr>
-	<tr>
-		<td></td>
-		<td></td>
-	</tr>
-	<tr>
-		<td></td>
-		<td></td>
-	</tr>
-</table>
+	<form action="">
+		<table border="0px" width="50%" align="center" bgcolor="#eeeeee">
+			<tr height = "30px">
+				<td colspan="2" bgcolor="orange" align="center">ZENT GROUP	</td>
+			</tr>
+			<tr height = "30px">
+				<td width="50%"><label for="">Họ và tên</label></td>
+				<td><input type="text" name="name"></td>
+			</tr>
+			<tr height = "30px">
+				<td width="50%"><label for="">Email</label></td>
+				<td><input type="text" name="email"></td>
+			</tr>
+			<tr height = "30px">
+				<td width="50%"><label for="">Số điện thoại</label></td>
+				<td><input type="text" name="phonenumber"></td>
+			</tr>
+			<tr height = "30px">
+				<td width="50%"><label for="">Quê quán</label></td>
+				<td><select name="city" >
+					<option value="">--Chọn thành phố--</option>
+					<option value="">Hà Nội</option>
+					<option value="">Đà Nẵng</option>
+					<option value="">Huế</option>
+					<option value="">TP.Hồ Chí Minh</option>
+				</select></td>
+			</tr>
+			<tr height = "30px">
+				<td width="50%"><label for="">Giới tính</label></td>
+				<td>
+					<input type="radio" name="gender">Nam
+					<input type="radio" name="gender">Nữ
+				</td>
+			</tr>
+			<tr height = "30px">
+				<td width="50%"><label for="">Kỹ năng</label></td>
+				<td>
+					<input type="checkbox">HTML
+					<input type="checkbox">CSS
+					<input type="checkbox">JS
+					<input type="checkbox">BOOTSTRAP
+				</td>
+			</tr>
+			<tr height = "30px">
+				<td width="50%"	><label for="">Ngày sinh</label></td>
+				<td><input type="date" name="birthday"></td>
+			</tr>
+			<tr height = "30px">
+				<td><label for="">Miêu tả</label></td>
+				<td><textarea name="description" cols="30" rows="10"></textarea></td>
+			</tr>
+			<tr height ="30px" bgcolor="orange">
+				<td colspan="2" align="center">
+					<input type="button" value="Submit">
+					<input type="button" value="Reset">
+				</td>
+			</tr>
+		</table>
+	</form>
+	
 </body>
 </html>

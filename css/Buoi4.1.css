@@ -1,0 +1,41 @@
+.content{
+	margin-top: 20px;
+	background-color: pink;
+	padding-top: 10px;
+	padding: 20px 50px 30px 10px;
+}
+.container{
+	width: 100%;
+	height: 100px;
+	border-width: 10px;
+	border-color: green;
+	border-style: double;
+}
+.content:after{
+	content: "xin chào";
+	color: yellow;
+	font-size:  50px;
+}
+.content:before{
+	content: "xin chào";
+	color: yellow;
+	font-size:  50px;
+}
+.my-div{
+	width: 50px;
+	height: 100px;
+	background-color: red;
+	position: absolute;
+	top: 100px;
+	z-index: 3000;
+}
+.my-div-1{
+	width: 120px;
+	height: 120px;
+	background-color: yellow;
+	position: absolute;
+	top: 100px;
+	z-index: 250;
+    left: 100px;
+    overflow: auto;
+}
