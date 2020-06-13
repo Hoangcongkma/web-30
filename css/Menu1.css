@@ -1,0 +1,48 @@
+body{
+	font-family: arial;
+	font-size: 15px;
+	background-image: url(../img/bg.jpg);
+}
+div{
+	display: block;
+}
+#Menu ul li{
+	left: 500px;
+	width: 160px;
+	height: 40px;
+	background: #41FA0F;
+	text-align: center;
+	line-height: 40px;
+	border: 2px white solid;
+	text-decoration: none;
+	list-style-type: none;
+}
+
+
+#Menu .menucon{
+	display: none;
+	left:200px;
+}
+#Menu ul li:hover .menucon{
+	display: block;
+}
+#Menu .hoidap{
+	display: none;
+	position: absolute;
+	left: 180px;
+	top: 50px;
+	
+	text-align: center;
+}
+#Menu ul li:hover .hoidap{
+	display: block;
+}
+#Menu .chatluong {
+	display:none;
+	position: absolute;
+	left:250px;
+	top: 70px;
+}
+#Menu ul li .hoidap :hover .chatluong{
+	display: block;
+}
