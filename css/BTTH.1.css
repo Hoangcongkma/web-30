@@ -1,0 +1,267 @@
+* {
+	font-family: Arial;
+}
+a {
+	text-decoration: none;
+}
+ul {
+	list-style-type: none;
+}
+.clear {
+	clear: both;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+#header, #main, #footer, .bg, {
+	width: 100%;
+}
+#policy, .id a, #footer, .video-banner-1, .planet, .sub-menu > ul, .description, .description >a, .title > h1, .title > p, .visit, .popular, .visit-2 {
+	color: white;
+}
+#policy ul, #policy p {
+	margin-top: 25px;
+}
+.icon, .id, .sub-menu ul li {
+	border-right: 1px solid #323232;
+}
+#menu, .icon > img, .id {
+	height: 50px;
+}
+.sub-menu ul li, .id {
+	font-size: 12px;
+}
+#policy, .title h2,.title h3, .sub-menu ul li, .weather li, .popular > ul > li> h4, .content-list-8, .language-1 ul li,.language-2 ul li, .footer-1 ul li, .footer-2 ul li {
+	display: inline-block;
+}
+.planet, .visit, .visit-2 {
+	text-align: center;
+}
+#header {
+	height: 168px;
+	background-color: #323232;
+	overflow: hidden;
+}
+#policy h2 {
+	width: 25%;
+	padding-left: 42px;
+}
+#policy p {
+	width: 53%;
+}
+#policy ul, #policy a{
+	color: #f6a21d;
+}
+#policy a {
+	font-size: 14px;
+}
+#policy li {
+	padding-bottom: 10px;
+}
+#menu {
+	padding-left: 34px;
+	padding-right: 43px;
+	max-width: 1272px;
+	background-color: #000;
+}
+.icon {
+	width: 175px;
+}
+.id {
+	text-indent: 5px;
+	line-height: 4;
+	width: 130px;
+	font-weight: bold;
+}
+.sub-menu ul{
+	line-height: 4;
+}
+.sub-menu ul li {
+	margin: 0;
+	height: 50px;
+	padding: 0 20px;
+	bottom: 9px;
+}
+.sub-menu ul li:last-child {
+	border: 0;
+}
+.title {
+	margin-right: 34px;
+	padding: 0 8px;
+	color: #4a4a4a;
+}
+.title h2 {
+	padding-right: 800px;
+}
+.title span {
+	font-size: 24px;
+}
+.content {
+	margin: 34px;
+	padding: 0 8px;
+}
+.content > ul {
+	width: 1272px;
+	height: 351px;
+	padding-left: 0;
+}
+.content > ul >li, .sub-menu ul li, .bg, .visit, .content-list-3>ul>li, .visit-2, .language-1 > ul {
+	position: relative;
+}
+.content-list-1, .content-list-2, .bg, .video {
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.content-list-1 {
+	width: 49%;
+}
+.content-list-1, .content-list-2 {
+	margin-right: 1%;
+	height: inherit;
+}
+.content-list-2 {
+	width: 23%;
+	height: 48%;
+	margin-left: 0;
+	margin-bottom: 1%;
+}
+.description{
+	width: 100%;
+	height: auto;
+	padding-left: 5%;
+	position: absolute;
+	bottom: -1px;
+}
+.bdc {
+	border-left-style: solid;
+	border-left-width: 4px;
+	text-indent: 10px;
+}
+.content-list-3 {
+	width: 32%;
+	height: 65%;
+	margin: 0 0.5%;
+	background-color: white;
+}
+.content-list-3 > img {
+	width: 100%;
+}
+.day h5, .day p, {
+	margin: 0;
+}
+.bg {
+	height: 540px;
+}
+.title > h1 {
+	font-size: 3em;
+	width: 30%;
+	padding-top: 50px;
+	padding-left: 42px;
+	margin-bottom: 0;
+}
+.title > p {
+	padding-left: 42px;
+}
+.visit, .visit-2 {
+	height: 30px;
+	border: 1px solid white;
+	margin-right: 34px;
+	border-radius: 20px;
+	line-height: 2;
+	bottom: 100px;
+}
+.visit {
+	width: 11%;
+}
+.visit-2 {
+	width: 13%;
+}
+.planet {
+	width: 160px;
+	height: 35px;
+	line-height: 1.5;
+	font-family: Time; 
+	color: white; 
+	padding: 0 !important;
+	margin-left: 42px;
+	margin-top: 50px; 
+	margin-bottom: 0; 
+	border: 2px solid #2F8735;
+}
+.content-list-6, .content-list-7 {
+	width: 43%;
+	height: auto;
+}
+.content-list-7 {
+	margin-right: 8%;
+}
+.video {
+	background-image: url(../img1/_112835110_p08gmg10.jpg);
+	height: 700px;
+}
+.video-banner {
+	width: 100%; 
+	background-color: #363636;
+}
+.video-banner-1 {
+	width:98%;
+	padding-left: 2%;
+	height: auto;
+}
+.video-banner-1 > ul {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.content-list-8 {
+	margin-right: 10px;
+}
+.language, .language h2 {
+	margin-left: 34px;
+}
+.language-1 {
+	width: 42%;
+}
+.language-1 ul li {
+	position: relative;
+	top: 0%;
+	width: 20%;
+}
+.language-2 {
+	width: 58%;
+}
+.language-2 li {
+	width: 120px;
+	padding-right: 10px;
+	font-size: 12px;
+}
+#footer {
+	background-color: #4c4c4c;
+	width: auto;
+}
+.footer-1, .footer-2 {
+	margin-left: 34px;
+	margin-right: 34px;
+}
+.footer-1 h3 {
+	margin-top: 20px;
+}
+.footer-1 ul li {
+	width: 190px;
+	height: 20px;
+	font-size: 14px;
+	border-right: 1px solid #fff;
+}
+.footer-2 {
+	border-top: 1px solid #fff;
+	font-size: 14px;
+}
+.footer-2 ul, .footer-1 ul, .language-1 ul {
+	padding-left: 0;
+}
+.footer-2 ul li {
+	margin-right: 19px;
+
+}

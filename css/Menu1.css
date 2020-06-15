@@ -2,6 +2,7 @@ body{
 	font-family: arial;
 	font-size: 15px;
 	background-image: url(../img/bg.jpg);
+
 }
 div{
 	display: block;
@@ -13,7 +14,7 @@ div{
 	background: #41FA0F;
 	text-align: center;
 	line-height: 40px;
-	border: 2px white solid;
+	border: 1px white solid;
 	text-decoration: none;
 	list-style-type: none;
 }
@@ -37,12 +38,70 @@ div{
 #Menu ul li:hover .hoidap{
 	display: block;
 }
-#Menu .chatluong {
+#Menu .hoidap .chatluong {
 	display:none;
 	position: absolute;
-	left:250px;
+    left:165px;
+	top: 3px}
+.hoidap :hover .chatluong{
+	display: block;
+    position: absolute;
+    left:250px;
 	top: 70px;
+
 }
-#Menu ul li .hoidap :hover .chatluong{
+.tot{
+	position: absolute;
+	left: 220px;
+	top: 200px;
+	display: none;
+}
+#Menu .menucon li:hover  .tot {
+	display: block;
+}
+#Menu .hoidap :hover .chatluong {
+	display: block;
+}
+.te{
+	position: absolute;
+	left: 220px;
+	top: 210px;
+	display: none;
+}
+#Menu .menucon li:hover .te{
+	display: block;
+	color: red;
+}
+.Cskh{
+	position: absolute;
+	left: 180px;
+	top: 100px;
+	display:none; ;
+}
+#Menu ul   :hover .Cskh{
+	display: block;
+	color: yellow;
+}
+.sdt{
+	position: relative;
+	left: 140px;
+	top: 5px;
+	display: none;
+	color: green;
+	text-align: center;
+
+}
+.mail{
+position: absolute;
+	left: 180px;
+	top: 50px;
+	display: none;
+	color: black;
+	font-size: 12px;
+}
+#Menu .Cskh li:hover .sdt{
+	display: block;
+}
+#Menu .Cskh  :hover .mail {
 	display: block;
 }

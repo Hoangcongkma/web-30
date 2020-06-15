@@ -1,0 +1,33 @@
+body{
+	font-family: arial;
+	font-size: 13px;
+	margin:0px;
+}
+#modau1{
+	background: red;
+	height: 30px;
+	width: 100%;
+	color: white;
+	text-decoration: none;
+	list-style-type: none;
+
+
+}
+#modau1 ul li{
+	display: inline-block;
+	margin: 3px;
+	padding-left: 100px;
+}
+#Menu1{
+	background: #352F2F;
+	height: 30px;
+	width: 100%;
+	color: white;
+	text-decoration: none;
+	list-style-type: none;
+
+}
+#Menu1 ul li{
+	display: inline-block;
+	margin: opx 2px 0px 0px;	
+}
