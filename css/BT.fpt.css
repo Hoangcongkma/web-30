@@ -1,0 +1,308 @@
+* {
+	font-family: Arial;
+}
+a {
+	text-decoration: none;
+}
+ul {
+	list-style-type: none;
+}
+body {
+	background-color: #f3f3f3;
+}
+.clear {
+	clear: both;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+#header, #main, #footer {
+	width: 100%;
+}
+.search button, .sub-banner li, .menu {
+	color: #fff;
+}
+.sub-banner li, .menu > ul >li, .phone-1 li,.phone-3 li, .content-1 > ul > li, .news h4, #main > h2, .deal li, .kword li, .deal-2 li, .deal-3 li, .ft-1 li, .ft-2 li {
+	display: inline-block;
+}
+.phone-1 ul, .phone p, .phone-2 ul, .phone-3 ul {
+	padding-left: 20px;
+}
+.phone-1, .phone-2 {
+	border-right: 1px solid #d3d3d3;
+}
+.banner {
+	background-color: #cd1818;
+	height: 70px;
+}
+.logo {
+	margin-left: 40px;
+	background-image: url('img/icon.jpg');
+	background-repeat:no-repeat;
+	background-size: cover;
+	width: 150px;
+	height: 40px;
+	margin-top: 13px;
+}
+.search {
+	margin-top: 18px;
+	position: relative;
+	margin-left: 20px;
+}
+.search input {
+	position: absolute;
+	width: 500px;
+	height: 30px;
+}
+.search button {
+	position: absolute;
+    width: 40px;
+    height: 36px;
+    font-size: 24px;
+    left: 507px;
+    background-color: black;
+}
+.sub-banner {
+	padding-right: 40px;
+}
+.sub-banner li {
+	padding-left: 40px;
+	text-align: center;
+}
+.sub-banner span {
+	font-size: 13px;
+}
+.sub-banner i {
+	font-size: 20px;
+}
+.sub-banner ul, .deal h3, .deal p, .news h4, .phone p {
+	margin-bottom: 0;
+}
+.menu {
+	background-color: #252525;
+	height: 30px;
+	line-height: 2.3;
+}
+.menu > ul > li > img {
+	height: 17px;
+}
+.menu > ul {
+	padding-left: 40px;
+	margin: 0;
+	font-size: 14px;
+}
+.menu > ul > li {
+	margin-right: 31px;
+	position: relative;
+}
+.phone {
+	position: absolute;
+	top: 30px;
+	margin-left: 40px;
+	margin-right: 40px;
+	width: 1100px;
+	border: 1px solid #d3d3d3;
+	color: #000;
+	display: none;
+	background-color: #fff;
+}
+.menu > ul > .big-phone:hover .phone {
+	display: block;
+}
+.phone li {
+	width: 100px;
+	margin-right: 10px;
+	font-size: 13px;
+}
+.phone p {
+	font-weight: bold;
+	color: #3d3d3d;
+}
+.phone-1 {
+	width: 360px;
+}
+.phone-2 {
+	width: 150px;
+	padding-bottom: 60px;
+}
+.phone-3 {
+	width: 350px;
+}
+.phone-3 img{
+	width: 80px;
+}
+.phone-3 div {
+	width: 150px;
+}
+.sub-phone-3 {
+	width: 130px !important;
+	position: relative;
+	bottom: 30px;
+}
+.phone-4 img {
+	height: 210px;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+#main {
+	margin-left: 40px;
+	margin-right: 40px;
+	height: auto;
+}
+.content-1 > ul, .content-1 > ul >li {
+	background-color: #fff;
+}
+.content-1 > ul {
+	padding: 0;
+	text-align: center;
+	width: 800px;
+}
+.content-1 > ul > li:first-child {
+	width: 800px;
+	height: 300px;
+	padding-top: 0; 
+}
+.content-1 > ul >li {
+	width: 129px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 14px;
+}
+.hover1:hover {
+	border-bottom: 3px solid #ff1616;
+	cursor: pointer;
+}
+.content-2 {
+	width: 385px;
+	margin-left: 73px;
+}
+.content-2 >ul, .deal-3 {
+	padding: 0;
+}
+.content-2 >ul>li:last-child {
+	margin-top: 5px;
+}
+.news h4 {
+	padding-left: 10px;
+}
+.news a {
+	margin-left: 99px;
+	font-size: 13px;
+	line-height: 0;
+}
+.news p {
+	width: 260px;
+    font-size: 14px;
+    margin: 0;
+    padding-left: 7px;
+}
+.news ul, .deal ul {
+	padding-left: 10px;
+}
+.ads {
+	width: 1200px;
+	height: 80px;
+}
+.deal li {
+	width: 29.56%;
+	padding: 0 4px;
+	margin-top: 4px;
+}
+.deal p, .news h4 {
+	margin-top: 0;
+}
+.deal p {
+	font-weight: bold;
+}
+.deal > ul, .kword ul, .deal-2 ul {
+	margin: 0;
+	padding: 0;
+}
+.title h4 {
+	margin-bottom: 5px;
+	margin-top: 0;
+}
+.title p {
+	margin: 0;
+}
+.title {
+	padding-top: 15px;
+	padding-left: 10px;
+	background-color: #fff;
+}
+.kword {
+	width: 91%;
+	height: 50px;
+	background-color: #e5e5e5;
+}
+.kword li {
+	height: 30px;
+	line-height: 2;
+	border: 0 solid;
+	background-color: #fff;
+	border-radius: 15px;
+	padding: 0 5px;
+	margin: 10px 5px 0 5px;
+	font-size: 14px;
+}
+.kword li:hover {
+	color: #fff;
+	background-color: #000;
+}
+.deal-2 ul {
+	background-color: #fff;
+	width: 91%;
+}
+.deal-2 li {
+	font-size: 12px;
+	width: 11.8%;
+	padding: 6px 2px;
+}
+.deal-3 li:nth-child(2){
+	margin: 0 12px;
+}
+#footer {
+	background-color: #fff;
+	font-size: 12px;
+	height: 200px;
+}
+.ft-1 {
+	width: 48%;
+	padding-top: 10px;
+	color: #3399d2;
+}
+.ft-1 li {
+	width: 171px;
+	padding: 5px;
+}
+.ft-2 {
+	width: 46%;
+	height: 50px;
+	padding-top: 10px;
+}
+.ft-2 a {
+	font-size: 18px;
+}
+.ft-2 p {
+	margin-bottom: 5px;
+	margin-top: 0;
+}
+.ft-2 li {
+	width: 210px;
+}
+.bot {
+	color: #6d6d6d;
+	text-align: center;
+	padding-top: 10px;
+	font-size: 10px;
+}
+.red-bold {
+	color: #d0021b;
+	font-weight: bold;
+}
+.ft-1 >ul>li:hover {
+	color: #000;
+}

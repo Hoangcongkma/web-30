@@ -2,6 +2,8 @@ body{
 	font-family: arial;
 	font-size: 13px;
 	margin:0px;
+	background: #C9EDEF;
+	height: 10000px;
 }
 #modau1{
 	background: red;
@@ -18,7 +20,10 @@ body{
 	margin: 3px;
 	padding-left: 100px;
 }
-#Menu1{
+.Menu1 li{
+	font-size: 15px;
+}
+#Menu{
 	background: #352F2F;
 	height: 30px;
 	width: 100%;
@@ -27,7 +32,66 @@ body{
 	list-style-type: none;
 
 }
-#Menu1 ul li{
+#Menu ul  {
+	margin-top: 0px;
+
+}
+#Menu li{
 	display: inline-block;
-	margin: opx 2px 0px 0px;	
+	border: 1px;
+	margin: 3px;
+	font-size: 16px;
+	padding-left: 30px;
+}
+#content1{
+	border: 2px white solid;
+	position: relative;
+}
+#content1 .trai{
+	height: 200px;
+	width: 75%;
+    position: relative;
+}
+.trai{
+	float: left;
+	position: absolute;
+}
+.phai{
+	float: left ;
+	position: absolute;
+
+	margin-left: 800px;
+	border: 3px white solid;
+}
+.tin{
+	float: left;
+	position: absolute;
+	border: 3px white solid;
+    margin-left: 800px;
+    margin-top: 190px;
+    text-decoration: none;
+    list-style: none;
+    width: 390px;
+}
+
+
+#content1 .trai .phai .tin {
+	clear: both;
+}
+.clear{
+	clear: both;
+}
+#content2{
+	margin-top: 160px;
+}
+#content3 p{
+	font-size: 20px;
+}
+
+#dienthoai1{
+
+	border: 3px white solid;
+	width: 30%;
+	margin-left: 20px;
+	background: #C7BEBE;
 }
