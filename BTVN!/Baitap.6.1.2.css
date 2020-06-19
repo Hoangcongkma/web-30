@@ -1,0 +1,219 @@
+@media all and (max-width: 960px) {
+	.info, .contact, .container-2 > p, .title > p {
+    	font-size: 0.8em;
+	}
+	.title > h1, .container-2 > h1 {
+		font-size: 1.9em;
+	}
+	.menu {
+		width: 21%;
+		font-size: 0.8em;
+		bottom: 115px;
+	}
+	nav > img {
+    	width: 90%;
+	}
+	nav > ul {
+    	margin: 2px 0;
+	}
+	.title {
+    	padding-top: 110px;
+	}
+	.title > p {
+	    margin-bottom: 35px;
+	    font-size: 0.9em;
+	}
+	.container > ul > li:first-child {
+		float: left;
+	}
+	.container > ul > li:nth-child(3) {
+		float: right;
+	}
+	.container > ul > li:nth-child(4) {
+		float: left;
+	}
+	.container > ul > li:nth-child(6) {
+		float: right;
+	}
+	.content, .content > p, .content i {
+		font-size: 0.8em;
+	}
+	.container > p {
+		font-size: 0.8em;
+		margin: 20px 0;
+	}
+	.image:hover .trans {
+		height: 240%;
+	}
+	.trans > h3 {
+		margin: 5px 0;
+		font-size: 1em;
+	}
+	.trans > p {
+		margin: 5px 0;
+		font-size: 0.7em;
+	}
+	section {
+		height: 750px;
+	}
+	.container-2 > h1 {
+		margin: 10px 0;
+	}
+	.container-2 > h4 {
+		margin: 15px 0;
+	}
+	.container-2 > p {
+		margin: 5px 0;
+	}
+	footer {
+		bottom: 30px;
+	}
+	.info > h1, .contact > h1 {
+	    font-size: 1.5em;
+	}
+	.info {
+		width: 66%;
+	}
+	.contact > ul {
+		padding-left: 5px;
+	}
+	.text {
+		width: 100%;
+	}
+	li img {
+    	width: 30px;
+	}
+}	
+
+@media all and (max-width: 700px) {
+	 .menu, .title > p, .container > p, .content p, .info, .contact, .container-2 > p {
+		font-size: 0.6em;
+	}
+	nav > img {
+    	width: 85%;
+	}
+	nav > ul {
+    	margin: 1px 0;
+	}
+	section {
+		height: 890px;
+	}
+	.title {
+    	padding-top: 100px;
+	}
+	.title > h1, .container-2 > h1 {
+    	font-size: 1.5em;
+	}
+	.title > p {
+	    margin-bottom: 20px;
+	}
+	.container > ul > li {
+		width: 44%;
+	    margin-left: 3%;
+ 	    margin-right: 3%;
+	}
+	li img {
+		width: 25px;
+	}
+	.image:hover .trans {
+		height: 235%;
+	}
+	.container > p {
+		margin: 17px 0;
+	}
+	.container-2 > h1 {
+		top: 0;
+		margin: 15px 0;
+	}
+	.container-2 > h4 {
+		margin: 10px 0;
+	}
+	footer {
+		padding-bottom: 30px;
+	}
+	.container-2 > h4 {
+		font-size: 0.9em;
+	}
+	.container-3 {
+		bottom: 65px;
+	}
+
+}
+
+@media all and (max-width: 480px) {
+	nav > img {
+	    width: 100%;
+	}
+	.logo {
+		width: 140px;
+	}
+	.menu {
+	    width: 22%;
+	    font-size: 0.4em;
+	    bottom: 95px;
+	}
+	.title > h1, .container-2 > h1 {
+	    font-size: 1em;
+	}
+	.container > ul > li {
+		display: block;
+	}
+	.container > ul > li {
+	    width: 94%;
+	    margin-left: 3%;
+	    margin-right: 3%;
+	}	
+	section {
+		bottom: 50px;
+		height: 1925px;
+	}
+	.title > h1, .container-2 > h1 {
+    	font-size: 1.7em;
+	}
+	.title {
+    	padding-top: 60px;
+	}
+	.container, .container-2, .container-3 {
+   		width: 98%;
+    	transform: translate(1%,0);
+	}
+	.trans {
+		bottom: -212px;
+	}
+	.image:hover .trans {
+		height: 195%;
+	}
+	.container-3 {
+		margin-top: 40px;
+	}
+	.info {
+		width: 100%;
+	}
+	.contact {
+		float: left;
+		width: 100%;
+	}
+	.info > h1, .contact > h1 {
+   		font-size: 2em;
+	}
+	.contact li img {
+    	width: 30px;
+	}
+	.contact li {
+		padding: 0 20px;
+	}
+	.container-2 > h1 {
+		margin-bottom: 0;
+	}
+	.container-2 > h4 {
+		margin-top: 0;
+		font-size: 0.7em;
+	}
+	.text, textarea {
+    	width: 98%;
+	}
+	.text {
+		height: 15px;
+	}
+	
+}
