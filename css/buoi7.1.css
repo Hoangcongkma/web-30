@@ -1,0 +1,176 @@
+@media all and (max-width: 1024px) {
+	nav, .container, form {
+		width: 70%;
+		margin: 0 auto;
+	}
+	p {
+		font-size: 0.9em;
+	}
+	.banner {
+		height: 630px;
+	}
+	header {
+		overflow: hidden;
+		height: auto;
+	}
+	nav h1 {
+		display: block;
+		text-align: center;
+		margin-bottom: 0;
+	}
+	.menu {
+		float: none;
+		text-align: center;
+		margin:0;
+	}
+	.menu li {
+		margin-left: 10px;
+		font-size: 0.8em;
+	}
+	.banner h1 {
+		font-size: 4.5em;
+		margin-bottom: 20px;
+	}
+	.banner h2 {
+		font-size: 1em;
+		height: 30px
+	}
+	.banner {
+		transform: translateY(-11%);
+	}
+	#intro {
+		height: 1100px;
+	}
+	.intro {
+		float: none;
+		margin: 0 auto;
+		width: 100%;
+		text-align: center;
+	}
+	#intro {
+		float: none;
+		text-align: center;
+	}
+	.button {
+		margin: 0 auto;
+		width: 25%;
+	}
+	.button span {
+		font-weight: 600;
+	}
+	
+	.container > img {
+		width: 100%;
+		margin-top: 30px;
+
+	}
+	#skill {
+		height: 650px;
+	}
+	#skill > .container > ul > li {
+		display: block;
+		margin: 4% 0 !important;
+		width: 100%;
+	}
+	
+	#service {
+		height: 1000px;
+	}
+	.service-box {
+		float: none;
+		width: 100%;
+		height: 200px;
+		box-sizing: border-box;
+		margin: 8% 0;
+	}
+	.icon {
+		width: 70px;
+		height: 70px;
+		font-size: 2.5em;
+		margin: 0 auto;
+		transform: translateY(20%);
+	}
+	.service-box > p {
+		padding: 0 5%;
+	}
+
+	aside {
+		height: 700px;
+	}
+	.achievement {
+		width: 45%;
+		height: 150px;
+		margin: 4% 2%;
+	}
+	.achievement i {
+		margin-top: 8%;
+		font-size: 2.5em;
+	}
+	.achievement h3 {
+		margin: 10px 0;
+	}
+	
+	#work {
+		height: 1000px;
+	}
+	#work ul {
+		margin-bottom: 5%;
+		margin-top: 0;
+	}
+
+	.client-comment {
+		float: none;
+		width: 100%;
+	}
+	.client-img, .client-sub-comment {
+		float: none;
+	}
+	.client-img {
+		width: 20%;
+		height: 140px;
+		margin-left: 1%;
+	}
+	.client-sub-comment {
+		width: 100%;
+		margin-left: 2%;
+	}
+	.client-comment i {
+		padding: 0;
+	}
+	.clients {
+		height: 275px;
+		overflow: hidden;
+	}
+	#client {
+		height: 550px;
+	}
+	.dot {
+		top: 102%;
+	}
+	
+	#news {
+		height: 2450px;
+	}
+	.news-margin {
+		margin: 8% 0;
+	}
+	.news-content {
+		float: none;
+		width: 100%;
+	}
+
+	.contact {
+		width: 100%;
+		margin: 2% 0;
+	}
+	.contact i {
+		font-size: 2.5em;
+	}
+
+	form div {
+		transform: translate(0, 0);
+	}
+	textarea {
+		margin-bottom: 10px;
+	}
+}

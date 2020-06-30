@@ -1,0 +1,53 @@
+@media all and (max-width: 768px) {
+	.banner {
+		height: 500px;
+	}
+	header {
+		height: 502px;
+	}
+	.banner h1 {
+		font-size: 3.5em;
+		margin-bottom: 20px;
+	}
+	.banner h2 {
+		width: 34%;
+	}
+	.banner {
+		transform: translateY(-13%);
+	}
+	#intro {
+	    height: 900px;
+	}
+	.button {
+		font-size: 0.9em;
+		height: 36px;
+		width: 28%;
+	}
+	#skill {
+	    height: 580px;
+	}
+	#service {
+	    height: 890px;
+	}
+
+	aside {
+	    height: 600px;
+	}
+
+	#client {
+	    height: 520px;
+	}
+
+	.client-img {
+	    height: 105px;
+	}
+	.clients {
+    	height: 240px;
+    }
+    #work {
+	    height: 780px;
+	}
+	#news {
+	    height: 2020px;
+	}
+}

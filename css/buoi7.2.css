@@ -1,0 +1,117 @@
+@media all and (max-width: 480px) {
+	nav, .container, form {
+		width: 90% !important;
+	}
+	p {
+		font-size: 0.8em !important;
+	}
+	nav {
+		height: 32px;
+	}
+	header {
+		height: 655px !important;
+	}
+	nav h1 {
+		float: left;
+		display: inline-block !important;
+		margin: 10px 0 !important;
+		font-size: 1.2em;
+	}
+	.menu {
+		float: right !important;
+		transform: translateY(10px);
+	}
+	.menu i {
+		display: block;
+		font-size: 1.7em;
+	}
+	.menu li {
+		margin-left: 5px !important;
+	}
+	.sub-menu {
+		display: none;
+		position: absolute;
+		width: 300px;
+		transform: translate(-95%, 10%);
+	}
+	.menu:hover .sub-menu {
+		display: inline-block;
+	}
+	.banner {
+		transform: translateY(0) !important;
+		height: 622px !important;
+	}
+	.banner img {
+		width: 200%;
+		transform: translateX(-25%)
+	}
+	.banner > .container {
+		margin-left: 5%;
+		top: 39%;
+	}
+	.banner h1 {
+		font-size: 2.7em !important;
+	}
+	.banner h2 {
+		width: 43% !important;
+	}
+	.button {
+		width: 31% !important;
+	}
+	.text-shadow {
+		font-size: 4.5em;
+	}
+	.title > h1 {
+		font-size: 2em;
+	}
+
+	#service {
+		height: 780px;
+	}
+	.service-box {
+		transform: translateX(5%);
+	}
+
+	aside {
+		height: 770px !important;
+	}
+	.achievement {
+		width: 100% !important;
+	}
+	#work ul {
+		width: 80%;
+    	margin: 0 auto;
+	}
+	#work ul li {
+		margin: 2% 2%;
+    	padding: 2% 5%;
+	}
+	.image img {
+		width: 100%;
+		float: none;
+		margin-top: 1%;
+	}
+	#work {
+		height: 1500px !important;
+	}
+
+	.client-sub-comment h4 {
+	    margin-top: 20px;
+	}
+	.client-img {
+	    height: 84px !important;
+	}
+	#client {
+	    height: 440px !important;
+	}
+	.dot li {
+		font-size: 0.7em;
+	}
+	#news {
+	    height: 1700px !important;
+	}
+	.contact {
+		margin: 6% 0 !important;
+	}
+
+}

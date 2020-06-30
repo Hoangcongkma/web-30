@@ -91,7 +91,10 @@ body{
 #dienthoai1{
 
 	border: 3px white solid;
-	width: 30%;
+	width:500px;
 	margin-left: 20px;
 	background: #C7BEBE;
+}
+.dientoai{
+	width: 100%;
 }
