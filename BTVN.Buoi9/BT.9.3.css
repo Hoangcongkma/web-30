@@ -1,0 +1,21 @@
+* {
+	font-family: Arial;
+}
+.container {
+	position: relative;
+	width: 20%;
+	height: 100px;
+	border: 1px solid;
+}
+p {
+	margin-left: 10px;
+	font-family: Time;
+}
+.btn {
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+}
+#text {
+	width: 80%;
+}

@@ -1,0 +1,28 @@
+.container {
+	width: 60%;
+	height: 700px;
+}
+.check-box {
+	width: 6%;
+	float: left;
+	display: flex;
+	align-items: center;
+}
+.check-box > input {
+	margin: 0 auto;
+}
+
+.check-box, .content {
+	height: 50px;
+	border: 1px solid #c4c4c4;
+	box-sizing: border-box;
+	background-color: green;
+}
+.content {
+	width: 94%;
+	float: right;
+}
+
+.content > p {
+	margin: 1%;
+}
