@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Thực hành animation</title>
+	<style type="text/css">
+		body{
+			background-color: #E5561E;
+		}
+		.div-1{
+			width: 100px;
+			height: 100px;
+			position: relative;
+			animation-name: move;
+			animation-duration: 6s;
+			animation-delay: 1s;
+			animation-iteration-count: 10;
+			background: #2BDB22;
+			animation-direction: alternate;
+
+		}
+		.div-2{
+			width: 200px;
+			height: 200px;
+			background: yellow;
+			transition: width 2s, height 4s;
+		}
+		.div-2:hover{
+			width: 400px;
+			height: 500px;
+		}
+		.div-3{
+			width: 200px;
+			height: 200px;
+			background: red;
+			border: 2px blue solid;
+			background: linear-gradient( to right ,yellow,pink);
+			box-shadow: 10px 10px 5px #1F81DD;
+			text-shadow: 10px 10px 5px #1F81DD;
+
+		}
+		.div-3:hover{
+			transform: scale(2,4);
+
+		}
+		@keyframes move{
+			from {
+				background: red;
+				left: 0;
+			}
+			to{
+				background: yellow;
+				left: 300px;
+			}
+		}
+		@keyframes move{
+			 0%{
+				background: black;
+				left: 0;
+			}
+			25%{
+				background-color: #118D80;
+				left: 100px;
+			}
+			25%{
+				background-color: #5427B1;
+				left: 200px;
+			}
+			50%{
+				background-color: #E2EE2A;
+				left: 100%;
+			}
+		}
+
+	</style>
+</head>
+<body>
+    <div class="div-1"></div>
+    <br>	
+    <div class="div-2"></div>
+    <br>
+    <div class="div-3">
+    	Đại Bảo An
+    </div>
+</body>
+</html>
