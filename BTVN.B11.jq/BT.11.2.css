@@ -1,0 +1,72 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	background-image: linear-gradient(90deg, #07F34A,#1E0EF6);
+}
+.container {
+	width: 60%;
+	margin: 0 auto;
+	color: #fff;
+	height: auto;
+	overflow: hidden;
+}
+.banner {
+	width: 100%;
+	padding: 30px 3%;
+	background-color: #d5c8e3;
+	margin: 0 auto;
+	outline: none;
+
+}
+.banner h1 {
+	margin: 0 auto;
+	margin-bottom: 10px;
+	color: #b60808;
+}
+
+#input-task, .banner h1 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.input-text {
+	width: 76%;
+	height: 30px;
+}
+.button-add {
+	width: 16%;
+	height: 30px;
+	cursor: pointer;
+	border-radius: 10px red ;
+}
+.task {
+	width: 100%;
+	padding: 5px 10px;
+	background-color: #686886;
+	line-height: 2;
+	overflow: hidden;
+	border-bottom: 1px solid #fff;
+}
+
+.task .fa-trash {
+	float: right;
+	margin-top: 7px;
+}
+.task i {
+	cursor: pointer;
+}
+.task p {
+	display: inline-block;
+	margin: 0;
+	text-indent: 10px;
+}
+
+.mouse-in {
+	background-color: #23232e;
+	font-weight: bold;
+}
+
+.deco {
+	text-decoration: line-through;
+}

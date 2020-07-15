@@ -1,0 +1,46 @@
+.container {
+	width: 60%;
+	height: auto;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.panel {
+	border: 1px solid #000;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.panel:hover {
+	background-color: #55afd4;
+	color: #fff;
+}
+
+.content {
+	width: 80%;
+	margin: 0 auto;
+	display: none;
+}
+
+h3 {
+	display: inline-block;
+	width: 80%;
+	line-height: 2;
+	margin: 0;
+}
+i {
+	font-size: 1.5em;
+}
+
+.show {
+	display: block;
+}
+.add-color {
+	background-color: #55afd4;
+	color: #fff;
+}
