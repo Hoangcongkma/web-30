@@ -17,6 +17,7 @@ div{
 	border: 1px white solid;
 	text-decoration: none;
 	list-style-type: none;
+	float: left;
 }
 
 

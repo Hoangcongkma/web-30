@@ -3,6 +3,17 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Buổi 11</title>
+	<style>
+		.container{
+			width: 200px;
+			height: 500px;
+			padding: 0 20px;
+
+		}
+		#myButton{
+			height: 20px;
+		}
+	</style>
 	<script type="text/javascript" src="../js/jquery-3.5.1.min.js"></script>
 		<script type="text/javascript">
 		$(document).ready(function(){
@@ -13,6 +24,7 @@
 	
 </head>
 <body>
+	<p>Hello hello</p>
 	<div class="container">
 
 	<h1 class="myText">Hoàng Mạnh Công</h1>
@@ -21,6 +33,7 @@
 	<h1 id="myName">Thái Bình</h1>
 
 	</div>
+	<button id="myButton">ấn vào đây này</button>
 	
 	<form action="" name="frm">
 		<input type="text" name="email" value="hoangcongbkx@gmail.com">
@@ -50,15 +63,56 @@
 		// console.log(input_1,input_2,input_3);
 		console.log(text.text('Hoàng Mạnh Công'));
 
-		console.log($('.container').html('<h2>Học Viện Kỹ Thuật Mật Mã</h2>'));
+		// console.log($('.container').html('<h2>Học Viện Kỹ Thuật Mật Mã</h2>'));
 
 		console.log(input_1.val());
 
 		console.log(input_1.val('hoangcongbkx@gmail.com'));
 
+		console.log(textMyname.css('font-size','40px'));
 
 
-		
-	});
+		console.log('width'+ $('.container').height());
+
+		console.log('innerHeight'+$('.container').innerHeight());
+
+		$('.container').height(600);
+
+		$('p').remove();
+
+		$('.container').append('<h2 class=my-text-h2>Web font-end 30</h2>');	
+
+		$('.container').before('<h2>Web font-end 30</h2>');	
+
+		$('.container').after('<h2>Web font-end 30</h2>');	
+
+		$('container').addClass('class_1');// them class
+
+		$('container').removeClass('class_2');//xoa class
+
+		$('container').toggleClass('class_1');
+			// neu co class1  =>remove
+			// neu chua co class1 => add
+});
+        
+
+        $('#myButton').click(function() {
+        	$('.container').empty();
+        	/* Act on the event */
+        });
+        $('.myButton').change(function() {
+        	$('.container').empty();
+        	/* Act on the event */
+        });
+        $(document).on('click change',':text',function(){
+        	console.log('alo alo alo');
+        });
+        $('.my-text-h2').on('click',function(){
+        	$(this).css('color','green');
+        });
+        $(document).on('click','.my-text-h2',function(){
+        	$(this).css('color','blue');
+
+        })
 </script>
 </html>
