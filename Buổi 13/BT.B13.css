@@ -1,0 +1,150 @@
+body{
+	
+	width: 100%;
+}
+.container-fluid{
+	width:80%;
+	height: 500px;
+	color: #20E3CE;
+}
+.container-fluid h1{
+	text-align: center;
+	padding-top: 100px;
+	color: white;
+
+}
+hr{
+	width: 15%;
+	background-color: red;
+}
+ p {
+	text-align: center;
+	padding-top: 10px;
+	color: white;
+	font-size: 10px;
+	
+
+}
+button{
+	margin-left: 470px;
+	
+}
+.content{
+	background-color: red;
+	width: 80%;
+	margin-left: 136px;
+	height: 300px;
+	padding-top: 100px;
+	color: white;
+}
+.content h1{
+	text-align: center;
+	font-size: 25px;
+}
+.container-2{
+	width: 80%;
+	margin-left: 136px;
+	height: 500px;
+	padding-top: 100px;
+	color: black;
+	position: relative;
+
+}
+.container-2 h1{
+	text-align: center;
+	font-size: 25px;
+
+}
+.row-1  {
+			border:  1px solid white;
+			height: 200px;
+			padding-top: 50px;
+		}
+.row h2{
+	font-size: 20px;
+	padding-top: 20px;
+}
+.row p {
+	color: black;
+}
+.icon{
+	color: #F97408;
+	font-size: 30px;
+}
+.main3{
+width: 80%;
+height: 800px;
+margin-left: 136px;
+
+}
+.pd0{
+	padding: 0;
+}
+img{
+	width: 100%;
+	height: 100%;
+}
+.bgblack{
+	height: 450px;
+	background-color: black;
+}
+.center {
+	text-align: center;
+}
+.mgele{
+	margin:40px auto;
+}
+.white{
+	color: white !important;
+}
+.mgtop{
+	margin-top: 150px;
+}
+.bigsize{
+	font-size: 40px;
+}
+.footer{
+	width: 80%;
+	height: 500px;
+	margin-left: 136px;
+	padding-top: 100px;
+}
+.footer h1{
+text-align: center;
+	font-size: 25px;
+
+}
+.footer p{
+	color: black;
+}
+.icon-1{
+	font-size: 30px;
+	text-align: center;
+
+}
+.center-red{
+	color: red;
+	
+}
+@media all and (max-width: 991px ) and (min-width: 576px) {
+	.contaiber-2{
+		height: 800px;
+	}
+	.main3{
+		height: 1300px
+	}
+	.footer{
+		height: 500px;
+	}
+}
+@media all and (max-width: 575px ) {
+	.container-2{
+		height: 1200px;
+	}
+	.main3{
+		height: 2250px
+	}
+	.footer{
+		height: 500px;
+	}
+}
